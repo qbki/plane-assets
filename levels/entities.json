@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "player": {
+      "kind": "entity",
+      "model": "assets/models/plane.glb",
+      "is_opaque": true,
+      "gun_id": "gun",
+      "velocity": {
+        "acceleration": 30,
+        "damping": 0.1
+      }
+    },
+    "gun": {
+      "kind": "gun",
+      "projectile_id": "bullet",
+      "range": 8,
+      "velocity": {
+        "speed": 30,
+        "damping": 1
+      }
+    },
+    "soucer": {
+      "kind": "entity",
+      "model": "assets/models/saucer.glb",
+      "is_opaque": "true",
+      "hit_particle_id": "particle",
+      "velocity": {
+        "acceleration": 10,
+        "damping": 0.1
+      }
+    },
+    "particle": {
+      "kind": "paritcle",
+      "model": "assets/models/particle.glb",
+      "is_opaque": true,
+      "life_time": 0.4,
+      "quantity": 40,
+      "velocity": {
+        "speed": 15,
+        "damping": 0.001
+      }
+    },
+    "bullet": {
+      "kind": "entity",
+      "model": "assets/models/bullet.glb",
+      "is_opaque": false
+    },
+    "ground": {
+      "kind": "model",
+      "model": "assets/models/center-block.glb",
+      "is_opaque": "true"
+    },
+    "water": {
+      "kind": "model",
+      "model": "assets/models/water-surface.glb",
+      "is_opaque": "true"
+    },
+    "sun_light": {
+      "kind": "directional_light",
+      "color": [1, 1, 1],
+      "direction": [-0.8, -0.8, -1.0]
+    },
+    "red_light": {
+      "kind": "point_light",
+      "color": [1, 0, 0]
+    },
+    "green_light": {
+      "kind": "point_light",
+      "color": [0, 1, 0]
+    },
+    "blue_light": {
+      "kind": "point_light",
+      "color": [0, 0, 1]
+    },
+    "purple_light": {
+      "kind": "point_light",
+      "color": [1, 0, 1]
+    }
+  }
+}

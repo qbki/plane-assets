@@ -1,0 +1,58 @@
+{
+  "camera": {
+    "position": [0.0, 0.0, 15.0]
+  },
+  "map": [
+    {
+      "position_strategy": "single",
+      "behaviour": "player",
+      "entity_id": "player",
+      "position": [0, 0, 5]
+    },
+    {
+      "position_strategy": "round",
+      "behaviour": "enemy",
+      "radius": 10,
+      "hit_particle": "particle",
+      "entity_ids": ["soucer"],
+      "center": [0, 15, 5]
+    },
+    {
+      "position_strategy": "square",
+      "behaviour": "static",
+      "center": [0, 0, 0],
+      "width": 40,
+      "height": 40,
+      "entity_ids": ["ground", "water"]
+    },
+    {
+      "position_strategy": "void",
+      "behaviour": "light",
+      "entity_id": "sun_light"
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "light",
+      "entity_id": "red_light",
+      "position": [-5, 5, 5]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "light",
+      "entity_id": "green_light",
+      "position": [-5, -5, 5]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "light",
+      "entity_id": "blue_light",
+      "position": [5, -5, 5]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "light",
+      "entity_id": "purple_light",
+      "position": [0, -5, 5]
+    }
+  ]
+}
