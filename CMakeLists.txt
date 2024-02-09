@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(plane_assets VERSION 0.1.1)
+project(plane-assets VERSION 0.1.1)
 
 include(FetchContent)
 
