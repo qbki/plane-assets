@@ -38,9 +38,9 @@ jobs:
       run: cd ${{github.workspace}}/build && cpack
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with:
-        path: ${{github.workspace}}/build/pack/dist.tar.gz
+        path: ${{github.workspace}}/build/_CPack_Packages/Linux/TGZ/dist
 
   deploy:
     environment:
