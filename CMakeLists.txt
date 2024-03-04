@@ -4,12 +4,13 @@ project(plane-assets VERSION 0.1.1)
 include(FetchContent)
 
 set(PLANE_VERSION 0.1.2)
+set(PLANE_MD5 2202dccc1ba484ccefab4e17941abb9c)
 set(PLANE_FILE_NAME "plane-${PLANE_VERSION}-Emscripten.zip")
 
 FetchContent_Declare(
   plane_engine_project
   URL "https://github.com/qbki/plane/releases/download/v${PLANE_VERSION}/${PLANE_FILE_NAME}"
-  URL_HASH MD5=a27c62441216dd87008008b5e62ef3af)
+  URL_HASH MD5=${PLANE_MD5})
 FetchContent_MakeAvailable(plane_engine_project)
 FetchContent_GetProperties(plane_engine_project)
 
