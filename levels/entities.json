@@ -2,7 +2,7 @@
   "entities": {
     "player": {
       "kind": "entity",
-      "model": "assets/models/plane.glb",
+      "model": "models/helicopter.glb",
       "is_opaque": true,
       "gun_id": "gun",
       "velocity": {
@@ -21,7 +21,7 @@
     },
     "soucer": {
       "kind": "entity",
-      "model": "assets/models/saucer.glb",
+      "model": "models/saucer.glb",
       "is_opaque": "true",
       "hit_particle_id": "particle",
       "velocity": {
@@ -30,8 +30,8 @@
       }
     },
     "particle": {
-      "kind": "paritcle",
-      "model": "assets/models/particle.glb",
+      "kind": "particle",
+      "model": "models/particle.glb",
       "is_opaque": true,
       "life_time": 0.4,
       "quantity": 40,
@@ -42,17 +42,22 @@
     },
     "bullet": {
       "kind": "entity",
-      "model": "assets/models/bullet.glb",
+      "model": "models/bullet.glb",
       "is_opaque": false
     },
     "ground": {
       "kind": "model",
-      "model": "assets/models/center-block.glb",
+      "model": "models/center-block.glb",
+      "is_opaque": "true"
+    },
+    "grass": {
+      "kind": "model",
+      "model": "models/grass-block.glb",
       "is_opaque": "true"
     },
     "water": {
       "kind": "model",
-      "model": "assets/models/water-surface.glb",
+      "model": "models/water-surface.glb",
       "is_opaque": "true"
     },
     "sun_light": {
