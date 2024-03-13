@@ -10,6 +10,41 @@
         "damping": 0.1
       }
     },
+    "key-base": {
+      "kind": "entity",
+      "model": "models/key-base.glb",
+      "is_opaque": true
+    },
+    "letter-w": {
+      "kind": "entity",
+      "model": "models/letter-w.glb",
+      "is_opaque": true
+    },
+    "letter-a": {
+      "kind": "entity",
+      "model": "models/letter-a.glb",
+      "is_opaque": true
+    },
+    "letter-s": {
+      "kind": "entity",
+      "model": "models/letter-s.glb",
+      "is_opaque": true
+    },
+    "letter-d": {
+      "kind": "entity",
+      "model": "models/letter-d.glb",
+      "is_opaque": true
+    },
+    "left-mouse-button": {
+      "kind": "entity",
+      "model": "models/left-mouse-button.glb",
+      "is_opaque": true
+    },
+    "mouse-base": {
+      "kind": "entity",
+      "model": "models/mouse.glb",
+      "is_opaque": true
+    },
     "gun": {
       "kind": "gun",
       "projectile_id": "bullet",

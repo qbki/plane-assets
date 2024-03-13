@@ -9,6 +9,80 @@
       "entity_id": "player",
       "position": [0, 0, 5]
     },
+
+    {
+      "position_strategy": "single",
+      "behaviour": "static",
+      "entity_id": "key-base",
+      "position": [-4, -1, 0]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "static",
+      "entity_id": "key-base",
+      "position": [-4, -1, 0]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "static",
+      "entity_id": "key-base",
+      "position": [-6, -3, 0]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "static",
+      "entity_id": "key-base",
+      "position": [-2, -3, 0]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "static",
+      "entity_id": "key-base",
+      "position": [-4, -3, 0]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "static",
+      "entity_id": "mouse-base",
+      "position": [4, -3, 0]
+    },
+
+    {
+      "position_strategy": "single",
+      "behaviour": "tutorial-button",
+      "entity_id": "letter-w",
+      "button": "up",
+      "position": [-4, -1, 1]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "tutorial-button",
+      "entity_id": "letter-a",
+      "button": "left",
+      "position": [-6, -3, 1]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "tutorial-button",
+      "entity_id": "letter-s",
+      "button": "down",
+      "position": [-4, -3, 1]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "tutorial-button",
+      "entity_id": "letter-d",
+      "button": "right",
+      "position": [-2, -3, 1]
+    },
+    {
+      "position_strategy": "single",
+      "behaviour": "tutorial-button",
+      "entity_id": "left-mouse-button",
+      "button": "shooting",
+      "position": [4, -3, 0]
+    },
+
     {
       "position_strategy": "round",
       "behaviour": "enemy",
