@@ -3,8 +3,8 @@ project(plane-assets VERSION 0.1.1)
 
 include(FetchContent)
 
-set(PLANE_VERSION 0.1.4)
-set(PLANE_MD5 414e15b014dddc685d35f10d040cce83)
+set(PLANE_VERSION 0.1.5)
+set(PLANE_MD5 e6a5677d7ced87605d7e3fd6c1d23bd8)
 set(PLANE_FILE_NAME "plane-${PLANE_VERSION}-Emscripten.zip")
 
 FetchContent_Declare(
