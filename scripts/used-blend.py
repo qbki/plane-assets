@@ -12,7 +12,7 @@ models_full_pathes = retrieve_models_full_pathes(entities_file_path)
 blend_full_pathes = []
 for model_full_path in models_full_pathes:
   filepath = model_full_path.replace(".glb", ".blend")
-  filepath = filepath.replace("models", "src")
+  filepath = filepath.replace("models", "src/models")
   if not os.path.exists(filepath):
     print("File not found: {}".format(filepath), file=sys.stderr)
     exit(1)

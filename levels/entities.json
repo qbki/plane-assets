@@ -1,99 +1,139 @@
 {
   "entities": {
     "player": {
-      "kind": "entity",
-      "model": "models/helicopter.glb",
-      "is_opaque": true,
+      "kind": "actor",
       "gun_id": "gun",
       "velocity": {
         "acceleration": 30,
         "damping": 0.1
-      }
+      },
+      "model_id": "helicopter"
     },
-    "key-base": {
-      "kind": "entity",
-      "model": "models/key-base.glb",
+    "enemy_saucer": {
+      "kind": "actor",
+      "velocity": {
+        "acceleration": 10,
+        "damping": 0.1
+      },
+      "hit_particles_id": "particles",
+      "model_id": "saucer"
+    },
+    "helicopter": {
+      "kind": "model",
+      "path": "models/helicopter.glb",
       "is_opaque": true
     },
-    "letter-w": {
-      "kind": "entity",
-      "model": "models/letter-w.glb",
+    "key_base": {
+      "kind": "model",
+      "path": "models/key-base.glb",
       "is_opaque": true
     },
-    "letter-a": {
-      "kind": "entity",
-      "model": "models/letter-a.glb",
+    "letter_w": {
+      "kind": "model",
+      "path": "models/letter-w.glb",
       "is_opaque": true
     },
-    "letter-s": {
-      "kind": "entity",
-      "model": "models/letter-s.glb",
+    "letter_a": {
+      "kind": "model",
+      "path": "models/letter-a.glb",
       "is_opaque": true
     },
-    "letter-d": {
-      "kind": "entity",
-      "model": "models/letter-d.glb",
+    "letter_s": {
+      "kind": "model",
+      "path": "models/letter-s.glb",
       "is_opaque": true
     },
-    "left-mouse-button": {
-      "kind": "entity",
-      "model": "models/left-mouse-button.glb",
+    "letter_d": {
+      "kind": "model",
+      "path": "models/letter-d.glb",
       "is_opaque": true
     },
-    "mouse-base": {
-      "kind": "entity",
-      "model": "models/mouse.glb",
+    "left_mouse_button": {
+      "kind": "model",
+      "path": "models/left-mouse-button.glb",
       "is_opaque": true
     },
+    "mouse_base": {
+      "kind": "model",
+      "path": "models/mouse.glb",
+      "is_opaque": true
+    },
+
+    "tutorial_button_up": {
+      "kind": "tutorial_button",
+      "model_id": "letter_w",
+      "button": "up"
+    },
+    "tutorial_button_left": {
+      "kind": "tutorial_button",
+      "model_id": "letter_a",
+      "button": "left"
+    },
+    "tutorial_button_down": {
+      "kind": "tutorial_button",
+      "model_id": "letter_s",
+      "button": "down"
+    },
+    "tutorial_button_right": {
+      "kind": "tutorial_button",
+      "model_id": "letter_d",
+      "button": "right"
+    },
+    "tutorial_button_shooting": {
+      "kind": "tutorial_button",
+      "model_id": "left_mouse_button",
+      "button": "shooting"
+    },
+
     "gun": {
       "kind": "gun",
-      "projectile_id": "bullet",
+      "model_id": "bullet",
       "range": 8,
+      "sound_shot": "sound/effects/gun_shot.wav",
       "velocity": {
         "speed": 30,
         "damping": 1
       }
     },
-    "soucer": {
-      "kind": "entity",
-      "model": "models/saucer.glb",
-      "is_opaque": "true",
-      "hit_particle_id": "particle",
-      "velocity": {
-        "acceleration": 10,
-        "damping": 0.1
-      }
+    "saucer": {
+      "kind": "model",
+      "path": "models/saucer.glb",
+      "is_opaque": true
     },
-    "particle": {
-      "kind": "particle",
-      "model": "models/particle.glb",
-      "is_opaque": true,
-      "life_time": 0.4,
+    "particles": {
+      "kind": "particles",
+      "model_id": "particle_model",
+      "lifetime": 0.4,
       "quantity": 40,
       "velocity": {
         "speed": 15,
         "damping": 0.001
       }
     },
+    "particle_model": {
+      "kind": "model",
+      "path": "models/particle.glb",
+      "is_opaque": false
+    },
     "bullet": {
-      "kind": "entity",
-      "model": "models/bullet.glb",
+      "kind": "model",
+      "path": "models/bullet.glb",
       "is_opaque": false
     },
     "ground": {
       "kind": "model",
-      "model": "models/center-block.glb",
-      "is_opaque": "true"
+      "path": "models/center-block.glb",
+      "is_opaque": true
     },
     "grass": {
       "kind": "model",
-      "model": "models/grass-block.glb",
-      "is_opaque": "true"
+      "path": "models/grass-block.glb",
+      "is_opaque": true
     },
     "water": {
       "kind": "model",
-      "model": "models/water-surface.glb",
-      "is_opaque": "true"
+      "path": "models/water-surface.glb",
+      "is_opaque": true
     },
     "sun_light": {
       "kind": "directional_light",

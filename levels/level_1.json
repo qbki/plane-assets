@@ -4,126 +4,128 @@
   },
   "map": [
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "player",
       "entity_id": "player",
       "position": [0, 0, 5]
     },
 
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "static",
-      "entity_id": "key-base",
+      "entity_id": "key_base",
       "position": [-4, -1, 0]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "static",
-      "entity_id": "key-base",
+      "entity_id": "key_base",
       "position": [-4, -1, 0]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "static",
-      "entity_id": "key-base",
+      "entity_id": "key_base",
       "position": [-6, -3, 0]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "static",
-      "entity_id": "key-base",
+      "entity_id": "key_base",
       "position": [-2, -3, 0]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "static",
-      "entity_id": "key-base",
+      "entity_id": "key_base",
       "position": [-4, -3, 0]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "static",
-      "entity_id": "mouse-base",
+      "entity_id": "mouse_base",
       "position": [4, -3, 0]
     },
 
     {
-      "position_strategy": "single",
-      "behaviour": "tutorial-button",
-      "entity_id": "letter-w",
-      "button": "up",
+      "kind": "single",
+      "behaviour": "tutorial_button",
+      "entity_id": "tutorial_button_up",
       "position": [-4, -1, 1]
     },
     {
-      "position_strategy": "single",
-      "behaviour": "tutorial-button",
-      "entity_id": "letter-a",
-      "button": "left",
+      "kind": "single",
+      "behaviour": "tutorial_button",
+      "entity_id": "tutorial_button_left",
       "position": [-6, -3, 1]
     },
     {
-      "position_strategy": "single",
-      "behaviour": "tutorial-button",
-      "entity_id": "letter-s",
-      "button": "down",
+      "kind": "single",
+      "behaviour": "tutorial_button",
+      "entity_id": "tutorial_button_down",
       "position": [-4, -3, 1]
     },
     {
-      "position_strategy": "single",
-      "behaviour": "tutorial-button",
-      "entity_id": "letter-d",
+      "kind": "single",
+      "behaviour": "tutorial_button",
+      "entity_id": "tutorial_button_right",
       "button": "right",
       "position": [-2, -3, 1]
     },
     {
-      "position_strategy": "single",
-      "behaviour": "tutorial-button",
-      "entity_id": "left-mouse-button",
-      "button": "shooting",
+      "kind": "single",
+      "behaviour": "tutorial_button",
+      "entity_id": "tutorial_button_shooting",
       "position": [4, -3, 0]
     },
 
     {
-      "position_strategy": "round",
+      "kind": "round",
       "behaviour": "enemy",
-      "radius": 10,
-      "hit_particle": "particle",
-      "entity_ids": ["soucer"],
-      "center": [0, 15, 5]
+      "radius": 5,
+      "entity_ids": ["enemy_saucer"],
+      "center": [-20, 15, 5]
     },
     {
-      "position_strategy": "square",
+      "kind": "round",
+      "behaviour": "enemy",
+      "radius": 5,
+      "entity_ids": ["enemy_saucer"],
+      "center": [20, 15, 5]
+    },
+    {
+      "kind": "square",
       "behaviour": "static",
       "center": [0, 0, 0],
-      "width": 40,
-      "height": 40,
+      "width": 50,
+      "height": 50,
       "entity_ids": ["water", "grass"]
     },
     {
-      "position_strategy": "void",
+      "kind": "void",
       "behaviour": "light",
       "entity_id": "sun_light"
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "light",
       "entity_id": "red_light",
       "position": [-10, 10, 10]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "light",
       "entity_id": "green_light",
       "position": [-10, -10, 10]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "light",
       "entity_id": "blue_light",
       "position": [10, -10, 10]
     },
     {
-      "position_strategy": "single",
+      "kind": "single",
       "behaviour": "light",
       "entity_id": "purple_light",
       "position": [0, -10, 10]
