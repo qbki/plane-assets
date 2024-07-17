@@ -1,0 +1,34 @@
+{
+  "camera": {
+    "position": [0.0, 0.0, 30.0]
+  },
+  "map": [
+    {
+      "kind": "single",
+      "behaviour": "player",
+      "entity_id": "player",
+      "position": [0, 0, 5]
+    },
+    {
+      "kind": "square",
+      "behaviour": "enemy",
+      "width": 40,
+      "height": 1,
+      "entity_ids": ["enemy_saucer"],
+      "center": [0, 15, 5]
+    },
+    {
+      "kind": "square",
+      "behaviour": "static",
+      "center": [0, 0, 0],
+      "width": 50,
+      "height": 50,
+      "entity_ids": ["water"]
+    },
+    {
+      "kind": "void",
+      "behaviour": "light",
+      "entity_id": "sun_light"
+    }
+  ]
+}

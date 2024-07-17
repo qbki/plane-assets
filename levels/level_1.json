@@ -82,14 +82,14 @@
     {
       "kind": "round",
       "behaviour": "enemy",
-      "radius": 5,
+      "radius": 10,
       "entity_ids": ["enemy_saucer"],
       "center": [-20, 15, 5]
     },
     {
       "kind": "round",
       "behaviour": "enemy",
-      "radius": 5,
+      "radius": 10,
       "entity_ids": ["enemy_saucer"],
       "center": [20, 15, 5]
     },
@@ -97,8 +97,8 @@
       "kind": "square",
       "behaviour": "static",
       "center": [0, 0, 0],
-      "width": 50,
-      "height": 50,
+      "width": 100,
+      "height": 100,
       "entity_ids": ["water", "grass"]
     },
     {

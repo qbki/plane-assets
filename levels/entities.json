@@ -88,11 +88,11 @@
     "gun": {
       "kind": "gun",
       "model_id": "bullet",
-      "range": 8,
+      "range": 20,
       "sound_shot": "sound/effects/gun_shot.wav",
       "velocity": {
-        "speed": 30,
-        "damping": 1
+        "speed": 60,
+        "damping": 0.15
       }
     },
     "saucer": {
